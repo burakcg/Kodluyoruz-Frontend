@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../02-css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moirai+One&family=Orbitron:wght@400..900&family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header-start -->
+    <header class="mybox">   
+        <a href="/02-css/home.html" id="site_name"><h1>MyWork</h1></a>
+        <!-- navbar-start -->
+        <nav class="mynavbox">
+            <!-- Menu-Start -->
+            <div class="navbox_left">
+                <h2>TOPICS</h2>
+                <ul class="ulcolor">
+                    <li><a href="/02-css/html_codes.html" >HTML</a></li>
+                    <li><a href="/02-css/css_codes.html">CSS</a></li>
+                    <li><a href="/02-css/js_codes.html">JS</a></li>
+                </ul>
+                
+            </div> 
+            <!-- Menu-End -->
+            <div class="navbox_right">
+                
+                    <a href="" target="_blank"><img src="" alt=""></a>
+                
+            </div>
+        </nav> 
+        
+        <!-- navbar-end -->
+    </header>
+    <!-- header-end -->
+    <section class="content">
+        <h3>CSS CODES</h3>
+
+        <!-- article-start -->
+        <article class="art">
+            <div class="art_left">
+                <h4>Selector</h4>
+                
+            <figure>
+                <a href="https://www.btkakademi.gov.tr" target="_blank"><img src="/images/selector.png" alt="selector"></a>
+                <figcaption><strong></strong></figcaption>
+                <code>    
+                    <span>.art_left</span> {<br>
+                        background-color: A2B9A7;<br>
+                        text-indent: 0;<br>
+                        border-color: black;<br>
+                        border-style: solid;<br>
+                    } <br>
+                    
+                    <span>.art_left>h4</span> {<br>
+                        text-align: center;<br>
+                    } <br>
+                    <span>.art_left figure img</span> {<br>
+                        max-width: 530;<br>
+                    } <br>
+                    <span>.art_left figure code</span> { <br>
+                        font-family: 'Courier New', Courier, monospace; <br>
+                    }    <br>
+                    <span>.art img:hover</span> {<br>
+                        transform: scale(1.1); /*Hover'da hafif büyüme efekti*/<br>
+                    } <br>
+                    <span>code .color1</span> { <br>
+                        color: rgb(23, 109, 112);<br>
+                        font-size: larger;<br>
+                    } <br>
+                </code>
+                
+            </figure>
+                
+            </div>
+            <div class="art_right">
+                <h4> Flexbox for Layout</h4>
+                
+                <figure>
+                    <a href="https://www.geeksforgeeks.org/how-to-create-a-horizontal-navigation-bar-in-html-and-css/" target="_blank"><img src="/images/flexbox.png" alt="flexbox"></a>  
+                    <figcaption><strong>Use CSS Flexbox for Layout: CSS Flexbox allows you to arrange the list items horizontally and control their spacing and alignment.</strong></figcaption>
+                    <code>
+                        <span class="color2">.art</span> {<br>
+                            <span class="color1">display</span>: <span class="color3">flex</span>;<br>
+                            flex-wrap: nowrap;<br>
+                            margin: 10px; ;<br>
+                            padding: 5;<br>
+                            gap: 2vw;<br>
+                        } <br>
+                        <span class="color2">.resources</span> {<br>
+                            <span class="color1">display</span>: <span class="color3">flex</span>; <br>
+                            flex-wrap: nowrap; <br>
+                            gap: 2vw; <br>
+                            margin-left: -10; <br>
+                        } <br>
+                    </code>
+                    
+                </figure>
+                
+                </div>
+        </article> 
+        <!-- article-end -->
+    </section>     
+    <!-- content-end -->
+     <!-- footer-start -->
+     <footer class="footer_section">
+        <p>Author: <a href="/01-html/image_link.html" target="_blank">BCG</a> <br>
+        <a href="mailto:burak.c.gungor@gmail.com">Mail</a></p>
+
+     </footer>
+    <!-- footer-end -->
+</body>
+</html>

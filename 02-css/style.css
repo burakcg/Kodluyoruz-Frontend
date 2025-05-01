@@ -1,0 +1,211 @@
+ @charset "utf-8";
+ /* header */
+    .mybox {
+        border-style: solid;
+        background-color:657C6A;
+        border-width: 1;
+        border-color: aliceblue;
+        box-sizing: border-box;
+        
+    }
+    /* site name */
+    #site_name {
+        color: F5EEDC;
+    
+    
+              
+    }
+    /* header */
+    .mybox a {
+        text-decoration: none;
+        
+    }
+    .mybox a:hover {
+        color: blue;
+    }
+
+    .mybox h1 {
+        text-align: center;
+        font-size: 20;
+        font-family: "Moirai One", system-ui;
+    }
+    /* navbar */
+    .mynavbox {
+        display: flex;
+        flex-wrap: nowrap;
+        border-style: solid;
+        border-width: 1;
+        border-color: aliceblue;
+        padding-left: 50;
+        
+
+    }
+    
+    .navbox_left{
+        color: F7AD45;
+        padding-left: 20;
+          
+    }
+    /* menu */
+    
+    .navbox_left>h2 {
+        padding-left:25;
+        font-size: 15;
+        font-family: "Playwrite AU SA", cursive;
+
+    }
+    
+    ul.ulcolor li, .navbox_left a{
+        margin: 5;
+        color: F7AD45;
+        font-size: 13;
+        font-family: "Orbitron", sans-serif;        
+    }
+    /* NAV RIGHT */
+    .navbox_right {
+        padding-left: 1000;
+        padding-top: 20;
+        color: F7AD45;
+    }
+
+    /* content */
+    .content {
+        
+        box-sizing: border-box;
+        background-color: 183B4E;
+        border-style: solid;
+        border-width: 1;
+        border-color:aliceblue ;
+        padding: clamp(5px, 2vw, 20px);
+        min-height: calc(100vh - 60px);
+        
+        
+    }
+
+    .content h3 {
+        color: F5EEDC;
+        text-align: center;
+        margin: 0;
+        font-family: "Playwrite AU SA", cursive;
+    }
+    /* ARTICLE */
+    .art {
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 10px; ;
+        padding: 5;
+        gap: 2vw;
+    }
+    .resources {
+        display: flex;
+        justify-content: space-around; /* Resimleri eşit aralıklarla hizalar */
+        align-items: center;
+        flex-wrap: wrap; /* Küçük ekranlarda taşmayı önler */
+        gap: 2vw;
+    }
+    
+    .resource-item {
+        text-align: center; /* Başlık ve resmi ortalar */
+        margin: 10px; /* Resimler arasında boşluk */
+    }
+    
+    .resource-item h4 {
+        margin: 0 0 10px 0; /* Başlık ile resim arasında boşluk */
+        font-size: 16px; /* Başlık boyutu */
+        color:aliceblue; /* Başlık rengi */
+    }
+    
+    .resource-item img {
+        max-width: 150px; /* Resim boyutunu sınırlar, gerekirse ayarlayın */
+        height: auto;
+    }
+    
+
+    .art img {
+        max-width: 290px; /* Resimlerin maksimum genişliği */
+        height: auto; /* Orantıyı koru */
+        object-fit: contain; /* Resmi kırpma, orantılı sığdır */
+        transition: transform 0.3s ease; /* Hover efekti için geçiş */
+        box-sizing: border-box;
+      }
+      
+      .art img:hover {
+        transform: scale(1.1); /* Hover'da hafif büyüme efekti */
+      }
+     
+      /* ART LEFT */
+    .art_left {
+        background-color: A2B9A7;
+        text-indent: 0;
+        border-color: black;
+        border-style: solid;
+        
+    }
+    
+    .art_left>h4 {
+        text-align: center;
+    }
+    .art_left figure img {
+        max-width: 530;
+    }
+    .art_left figure code {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    .art_left figure code span {
+        color: rgb(255, 208, 0);
+        font-size: larger;
+    }
+    
+    /* ART RIGHT */
+    .art_right {
+        background-color: A2B9A7;
+        text-indent: 0; /* girinti */
+        border-color: black;
+        border-style: solid;
+        
+    }
+    .art_right>h4 {
+        text-align: center;
+    }
+    .art_right figure img {
+        max-width: 500;
+    }
+
+    .art_right figure code {
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    code .color2 {
+        color: rgb(255, 208, 0);
+        font-size: larger;
+    }
+    code .color1 {
+        color: rgb(23, 109, 112);
+        font-size: larger;
+    }
+    code .color3 {
+        color: brown;
+        font-size: larger;
+    }
+    /*footer */
+    .footer_section {
+        text-align: right;
+        padding: 3px;
+        background-color: 657C6A;
+        color: white;
+        padding-right: 40;
+        padding-top: 90;
+        border-style: solid;
+        border-color: aliceblue;
+        border-width:1;
+        position: relative;
+        bottom: 0;
+    }
+    .footer_section a {
+        color: black;
+        text-decoration: none;
+    }
+    .footer_section a:hover {
+        color: blue;
+    }
