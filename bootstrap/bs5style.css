@@ -1,0 +1,55 @@
+.bg-E9ECEF {
+    background-color: #E9ECEF;
+}
+
+.c-DDA853 {
+    color: #DDA853;
+}
+.coral-pixels-regular {
+    font-family: "Coral Pixels", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.moirai-one-regular {
+    font-family: "Moirai One", system-ui;
+    
+}
+.c-670D2F {
+    color: #A53860;
+}
+
+
+.playwrite {
+    font-family: "Playwrite AU SA", cursive;
+    margin-top: 15px;
+}
+  
+.orbitron {
+    font-family: "Orbitron", sans-serif;
+   
+}
+.card-img {
+    height: 450px; /* Sabit yükseklik */
+    
+    
+}
+.card-w {
+    width: 21rem;
+    margin: 50px;
+    
+}
+.box {
+    display: inline-block;
+    background-color: grey;
+    color: white;
+    border-radius: 35%;
+   margin: 3px;
+    padding: 3px;
+}
+.c-purple {
+    color: #732255;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
