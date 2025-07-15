@@ -1,0 +1,30 @@
+li {
+    text-align: center;
+    list-style-type: none;
+    background-color:gray;
+    border: 1px dashed white;
+    margin:8px;
+    padding: 8px;
+    width: 200px;
+   color: aliceblue;
+}
+.center {
+    justify-items: center;
+    align-items: center; /* İçerikleri yatayda ortalama */
+    gap: 20px; /* Liste ile buton arasında boşluk */
+    text-align: center;
+}
+button {
+    padding: 8px;
+    width: 100px;
+    background-color: black;
+    color: aliceblue;
+    margin-left: 25px;
+    
+}
+.btnAdd:hover {
+    background-color: green;
+}
+.btnDelete:hover {
+    background-color: red;
+}
