@@ -1,0 +1,54 @@
+.center {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.singupForm {
+    background-color: rgb(3, 3, 3);
+    margin: 10px auto;
+    width: 350px;
+    height: 200px; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin:15px auto;
+    padding: 5px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.message {
+    font-size: medium;
+    background-color: rgb(241, 241, 239);
+    padding: 10px;
+    position: relative;
+    max-width: 350px;
+    height: 30px;
+    display: none;
+}
+
+.message-close {
+    position: absolute;
+    top: 0px;
+    right: 4px;
+}
+
+.message-content {
+    margin: 1px; 
+}
+
+.success {
+    color: green;
+    border: 1px solid green;
+}
+
+.error {
+    color: red;
+    border: 1px solid red;
+}
