@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+}
+
+.clock {
+    color: #FFCC00;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.clock span {
+    padding: 20px;
+    background-color: #C5172E;
+    border-radius: 30%;
+    box-shadow: 2px 2px rgb(247, 107, 107) ;
+}
